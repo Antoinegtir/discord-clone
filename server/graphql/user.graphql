@@ -1,0 +1,39 @@
+scalar Upload
+
+type User {
+  _id: ID!
+  email: String!
+  password: String!
+  displayName: String!
+  username: String!
+  bio: String
+  birthday: String!
+  status: String
+  profilePic: String
+  createdAt: String!
+}
+
+type Query {
+  user(id: ID!): User
+}
+
+type Mutation {
+  deleteUser(id: ID!): String
+  createUser(email: String!, password: String!, displayName: String!, birthday: String!): User
+  signIn(email: String!, password: String!): AuthData
+  updateUser(id: ID!, displayName: String, bio: String, status: String, profilePic: Upload): User
+}
+
+type AuthData {
+  userId: ID!
+  token: String!
+  tokenExpiration: Int!
+  displayName: String!
+  birthday: String!
+  username: String!
+  email: String!
+  createdAt: String!
+  profilePic: String
+  status: String
+}
+
