@@ -16,11 +16,11 @@ The project is under construction, activly developed, `feel free to star the pro
 
 Onboard Page         |  Email Page       |   Register Page               |  Profile Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](screenshot/onboard.png)|![](screenshot/email.png)|![](screenshot/register.png)|![](screenshot/profile.png)|
+![](screenshot/onboard.png)|![](screenshot/email.png)|![](screenshot/register.png)|![](screenshot/profile.png)
 
 Login Page         |  Birthday Page       |   Edit Page               |  Status Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](screenshot/login.png)|![](screenshot/birthday.png)|![](screenshot/edit.png)|![](screenshot/status.png)|
+![](screenshot/login.png)|![](screenshot/birthday.png)|![](screenshot/edit.png)|![](screenshot/status.png)
 
 ## 💡 Idea
 
